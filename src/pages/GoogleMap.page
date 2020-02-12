@@ -12,7 +12,7 @@
 	<script>
 		var map;
 		var marker;
-		var lexOrigin = "https://brave-hawk-ngt6cx-dev-ed.lightning.force.com";
+		var lexOrigin = "https://eu25.lightning.force.com";
 
 		function initMap() {
 			map = new google.maps.Map(document.getElementById("map"), {
