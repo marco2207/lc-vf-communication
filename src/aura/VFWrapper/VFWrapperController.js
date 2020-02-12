@@ -3,6 +3,7 @@
         var vfOrigin = "https://" + component.get("v.vfHost");
 	    console.log("@@@ Initializing component !! " + vfOrigin);
 		window.addEventListener("message", function(event) {
+			console.log("@@@ Adding listener for component !!");
 			if (event.origin !== vfOrigin) {
 				// Not the expected origin: reject message
 				console.log("@@@ Wrong Origin !!");
