@@ -5,10 +5,10 @@ Example of bidirectional communication between Lightning Components and Visualfo
 - Click on "deploy on Salesforce"
 - Grant access to your Org
 - Click Deploy
-- Drang & Drop "fi_DemoChart" component in the record page
+- Drag & Drop "vfWrapper" component in the record page
 - Have Fun! ;)
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=drago&repo=old-messages&ref=master">
+<a href="https://githubsfdeploy.herokuapp.com?owner=drago&repo=lc-vf-communication&ref=master">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
