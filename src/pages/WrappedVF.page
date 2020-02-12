@@ -27,6 +27,7 @@
 		var lcMessagesEl = document.getElementById("lcMessages");
 
 		window.addEventListener("message", function(event) {
+			console.log("### Adding listener !!");
 			if (event.origin !== lexOrigin) {
 				// Not the expected origin: reject message
 				console.log("### Error origin!!");
@@ -34,7 +35,7 @@
 			}
 			// Only handle messages we are interested in            
 			if (event.data.name === "com.mycompany.chatmessage") {
-				console.log("### Right message name arrived, processing!");
+				console.log("### Right message name arrived in VFPage, processing!");
 				var messages = lcMessagesEl.value;
 				messages = messages + event.data.payload + "\n";
 				lcMessages.value = messages;
