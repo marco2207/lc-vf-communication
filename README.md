@@ -8,7 +8,7 @@ Example of bidirectional communication between Lightning Components and Visualfo
 - Drag & Drop "vfWrapper" component in the record page
 - Have Fun! ;)
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=drago&repo=lc-vf-communication&ref=master">
+<a href="https://githubsfdeploy.herokuapp.com?owner=marco2207&repo=lc-vf-communication&ref=master">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
