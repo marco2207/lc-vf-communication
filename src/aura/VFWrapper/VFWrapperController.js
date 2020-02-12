@@ -9,7 +9,7 @@
 			}
 			// Only handle messages we are interested in
 			if (event.data.name === "com.mycompany.chatmessage") {
-				console.log("@@@ Right message arrived!!);
+				console.log("@@@ Right message arrived!!");
 				var vfMessages = component.get("v.vfMessages");
 				vfMessages = vfMessages + event.data.payload + "\n";
 				component.set("v.vfMessages", vfMessages);
