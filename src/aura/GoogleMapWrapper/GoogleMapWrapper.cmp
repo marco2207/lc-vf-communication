@@ -6,9 +6,9 @@
     
     <!-- Change host with your own host for VF pages. In a real life app, you should obtain this value
 		 dynamically instead of hardcoding it. -->
-    <aura:attribute name="vfHost" type="String" default="brave-hawk-ngt6cx-dev-ed.lightning.force.com"/>
+    <aura:attribute name="vfHost" type="String" default="eu25.lightning.force.com/"/>
     
-    <force:recordPreview aura:id="service" recordId="{!v.recordId}" targetRecord="{!v.property}" 
+    <force:recordData aura:id="service" recordId="{!v.recordId}" targetRecord="{!v.property}" 
                          fields="['Id', 'Address__c', 'City__c', 'Location__Latitude__s', 'Location__Longitude__s']" />
     
     <aura:handler event="ltng:selectSObject" action="{!c.recordChangeHandler}"/>
