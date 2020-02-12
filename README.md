@@ -8,7 +8,7 @@ Example of bidirectional communication between Lightning Components and Visualfo
 - Drang & Drop "fi_DemoChart" component in the record page
 - Have Fun! ;)
 
-<a href="https://githubsfdeploy.herokuapp.com?owner=firo&repo=lwc-demo-chart-components&ref=master">
+<a href="https://githubsfdeploy.herokuapp.com?owner=drago&repo=old-messages&ref=master">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
 </a>
