@@ -29,10 +29,12 @@
 		window.addEventListener("message", function(event) {
 			if (event.origin !== lexOrigin) {
 				// Not the expected origin: reject message
+				console.log("### Error origin!!");
 				return;
 			}
 			// Only handle messages we are interested in            
 			if (event.data.name === "com.mycompany.chatmessage") {
+				console.log("### Right message name arrived, processing!");
 				var messages = lcMessagesEl.value;
 				messages = messages + event.data.payload + "\n";
 				lcMessages.value = messages;
@@ -45,6 +47,7 @@
 				name: "com.mycompany.chatmessage",
 				payload: payload
 			};
+			console.log("### Posting message to LWC");
 			parent.postMessage(message, lexOrigin);
 		}
 
