@@ -1,7 +1,7 @@
 <apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
 <html>
 <head>
-  <apex:stylesheet value="{!URLFOR($Resource.SLDS212, 'assets/styles/salesforce-lightning-design-system.min.css')}" />
+  <apex:stylesheet value="{!URLFOR('assets/styles/salesforce-lightning-design-system.min.css')}" />
 </head>
 <body style="background-color: #F0F2F5">
 	<strong>This gray area is Visualforce page embedded in the Lightning Component with an iframe:</strong>
@@ -22,7 +22,7 @@
 
     <script>
 
-		var lexOrigin = "https://cc200-dev-ed.lightning.force.com";
+		var lexOrigin = "https://brave-hawk-ngt6cx-dev-ed.lightning.force.com";
 
 		var lcMessagesEl = document.getElementById("lcMessages");
 
